@@ -1,0 +1,6 @@
+policy_id,control_title,compliance_objective,domain,risk_category
+POL-SEC-001,Multi-Factor Authentication,Ensure user identity verification,Access Control,MFA
+POL-SEC-002,Privileged Access Management,Control and monitor privileged user activities,Access Control,privileged access
+POL-SEC-003,Security Event Logging,Maintain audit trails for security events,Monitoring,logging
+POL-SEC-004,Network Segmentation,Isolate network segments to prevent unauthorized access,Network Security,network segmentation
+POL-SEC-005,Vendor Risk Management,Assess and monitor third-party vendor risks,Vendor Management,vendor access

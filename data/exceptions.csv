@@ -1,0 +1,7 @@
+exception_id,policy_id,exception_title,business_justification,impacted_system,risk_type,requested_by,owner,existing_controls,expiry_date,review_frequency_days,status
+EX001,POL-SEC-001,Temporary MFA Bypass for Legacy System,Legacy system cannot support modern MFA,Legacy CRM,MFA,John Doe,Jane Smith,Password authentication,2026-06-15,90,active
+EX002,POL-SEC-002,Extended Privileged Access for DevOps,Need extended access for emergency deployments,Production Servers,privileged access,Mike Johnson,Sarah Lee,Role-based access control,2026-05-01,60,active
+EX003,POL-SEC-003,Reduced Logging for Performance,Logging impacting database performance,Database Cluster,logging,Alice Brown,Bob Wilson,Basic logging enabled,2026-04-10,30,active
+EX004,POL-SEC-004,Network Segmentation Exception,Vendor requires direct access to internal network,Vendor Portal,network segmentation,Tom Davis,Emma Garcia,Firewall rules,2026-07-20,120,active
+EX005,POL-SEC-005,Vendor Access Without NDA,Urgent vendor integration needed,API Gateway,vendor access,Lisa Miller,David Taylor,Access reviews,2026-03-31,45,expired
+EX006,POL-SEC-006,MFA Exception for Service Account,Service account cannot use MFA,Automation Scripts,MFA,Chris Wilson,Anna Martinez,Service account isolation,2026-08-05,180,active

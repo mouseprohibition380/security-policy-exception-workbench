@@ -1,0 +1,9 @@
+control_name,applicable_risk_type,compliance_objective,evidence_requirement,monitoring_dependency,implementation_guidance
+Enhanced Monitoring,MFA,Increase visibility into authentication attempts,SIEM logs of failed login attempts,Real-time alerting on suspicious activity,Implement additional logging for all authentication events and set up alerts for anomalies.
+Session Timeouts,MFA,Limit session duration to reduce exposure,Configuration showing max session time of 30 minutes,Session monitoring and automatic logout,Configure application to enforce short session timeouts with automatic termination.
+Access Reviews,privileged access,Regular validation of access rights,Quarterly access review reports,Identity governance system,Conduct quarterly reviews of privileged access lists and remove unnecessary permissions.
+Just-in-Time Access,privileged access,Grant access only when needed,Audit logs of access grants and revocations,Automated approval workflows,Implement JIT provisioning with automatic revocation after task completion.
+Anomaly Detection,logging,Detect unusual patterns in system behavior,ML-based anomaly detection alerts,Security information and event management (SIEM),Deploy machine learning models to identify deviations from normal logging patterns.
+Log Aggregation,logging,Centralize log collection for analysis,Central log repository with retention policies,Log monitoring dashboards,Implement centralized logging with automated retention and analysis capabilities.
+Zero Trust Networking,network segmentation,Verify all access requests continuously,Network access control logs,Continuous authentication monitoring,Deploy zero trust architecture requiring verification for every access attempt.
+Vendor Security Assessments,vendor access,Evaluate vendor security posture,Third-party security assessment reports,Vendor risk monitoring platform,Conduct regular security assessments and monitor vendor compliance with security standards.
